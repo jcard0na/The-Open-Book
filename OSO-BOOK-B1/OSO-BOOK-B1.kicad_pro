@@ -65,18 +65,7 @@
         "copper_edge_clearance|475000|70850000|47478b93-7e63-4f9c-8063-5261ecd63f53|bfbf3a39-9c8e-4b5b-83fb-4c27c30f659f",
         "copper_edge_clearance|475000|76450000|47478b93-7e63-4f9c-8063-5261ecd63f53|ee1fae3f-51a4-4411-8c6b-cd507d9b29b0",
         "copper_edge_clearance|475000|78850000|47478b93-7e63-4f9c-8063-5261ecd63f53|40d5f1e5-9d77-4f84-9993-1beeb6f5341b",
-        "copper_edge_clearance|475000|83450000|47478b93-7e63-4f9c-8063-5261ecd63f53|9756bdae-d421-4622-af52-85bc0040d459",
-        "courtyards_overlap|78750001|-1249999|7d76aa4d-745b-465f-b55b-6d569678abf6|7e08f2a4-63d6-468b-bd8b-ec607077e023",
-        "courtyards_overlap|78750001|31600001|7d76aa4d-745b-465f-b55b-6d569678abf6|b1cc8324-735d-4351-9ea5-7fa868cdd276",
-        "footprint_type_mismatch|80500000|40000000|b1cc8324-735d-4351-9ea5-7fa868cdd276|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|78750000|1650000|7e08f2a4-63d6-468b-bd8b-ec607077e023|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|78750000|1650000|aa3f78ef-fa90-4f01-abd4-89b52559c4da|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|78750000|3350000|c9fd0373-6d59-4e27-8c5a-81f817e002e2|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|80080000|32400000|341dde39-440e-4d05-8def-6a5cecefd88c|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|80500000|36600000|b1cc8324-735d-4351-9ea5-7fa868cdd276|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|80500000|36600000|f2392fe0-54af-4e02-8793-9ba2471944b5|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|82000000|3000000|28284786-401f-47f3-848a-60e39a85b1d0|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|82393887|328885|4ebf4660-4def-40a0-a878-6b4da9cb3a55|00000000-0000-0000-0000-000000000000"
+        "copper_edge_clearance|475000|83450000|47478b93-7e63-4f9c-8063-5261ecd63f53|9756bdae-d421-4622-af52-85bc0040d459"
       ],
       "meta": {
         "version": 2
@@ -470,7 +459,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -534,8 +523,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "OSO-BOOK-B1-00",
-      "pos_files": "",
+      "plot": "gerbers",
+      "pos_files": "gerbers",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -558,7 +547,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -595,13 +584,49 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "JLCPCB",
+          "name": "JLCPCB",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "JLCPCB"
     },
     "connection_grid_size": 50.0,
     "drawing": {

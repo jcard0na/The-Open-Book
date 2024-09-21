@@ -4544,340 +4544,6 @@
 				)
 			)
 		)
-		(symbol "MEM2075-00-140-01-A:MEM2075-00-140-01-A"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 12 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MEM2075-00-140-01-A"
-				(at -12.7 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "GCT_MEM2075-00-140-01-A"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "GCT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MEM2075-00-140-01-A_0_0"
-				(rectangle
-					(start -12.7 -10.16)
-					(end 12.7 10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -5.08 0)
-					(length 5.08)
-					(name "DAT2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -7.62 0)
-					(length 5.08)
-					(name "CD/DAT3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "CMD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 7.62 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional clock
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "DAT0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "DAT1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "CD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -2.54 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6343,6 +6009,399 @@
 				)
 			)
 		)
+		(symbol "TF-CARD:ST-TF-003A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 17.7943 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ST-TF-003A"
+				(at 0 -20.3492 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ST-TF-003A:SUNTECH_ST-TF-003A"
+				(at 17.272 21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -10.16 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -10.16 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Suntech"
+				(at 4.064 25.146 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nMicro SD Card Socket\n"
+				(at 10.922 19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 2.54 23.368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 2.54 27.432 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" ""
+				(at 2.032 28.702 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" ""
+				(at 1.524 24.638 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ST-TF-003A"
+				(at 6.35 34.036 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 6.096 29.718 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Suntech"
+				(at 4.318 32.004 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ST-TF-003A_0_0"
+				(rectangle
+					(start -10.16 10.16)
+					(end 8.89 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 7.62 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -7.62 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 5.08 180)
+					(length 5.08)
+					(name "CD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 0 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ST-TF-003A_1_0"
+				(pin bidirectional line
+					(at -15.24 -7.62 0)
+					(length 5.08)
+					(name "CD/DAT3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -7191,7 +7250,7 @@
 		(uuid "1fbb32fb-ac29-47a6-be7c-d808b4535dd8")
 	)
 	(junction
-		(at 158.75 185.42)
+		(at 152.4 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "220d4628-260f-4a23-89b5-da70b723433a")
@@ -7275,7 +7334,7 @@
 		(uuid "652824f3-855d-4cc5-b735-c1e57e321106")
 	)
 	(junction
-		(at 158.75 187.96)
+		(at 152.4 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74b69390-6f1b-4020-bac2-4dac773fa215")
@@ -7287,7 +7346,7 @@
 		(uuid "7a6c8e3f-fb5a-4840-92df-9c64bc262261")
 	)
 	(junction
-		(at 158.75 182.88)
+		(at 152.4 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80094429-2a01-48f0-a9ae-d8452f62afce")
@@ -7377,7 +7436,7 @@
 		(uuid "d8701f15-b342-4a7d-869d-05449827a73f")
 	)
 	(junction
-		(at 158.75 172.72)
+		(at 152.4 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d967da05-8038-44c9-9225-3d6b0b4b1ae8")
@@ -7467,7 +7526,7 @@
 		(uuid "26c4587c-d4fd-4aaf-8fce-3b9950736d17")
 	)
 	(no_connect
-		(at 147.32 177.8)
+		(at 140.97 177.8)
 		(uuid "55476f2a-88b3-4087-b588-3a3b6738a9fd")
 	)
 	(no_connect
@@ -7709,7 +7768,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 187.96) (xy 158.75 187.96)
+			(xy 140.97 187.96) (xy 152.4 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7729,7 +7788,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 187.96) (xy 158.75 187.96)
+			(xy 158.75 187.96) (xy 152.4 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7779,7 +7838,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 172.72) (xy 158.75 165.1)
+			(xy 152.4 172.72) (xy 152.4 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7960,7 +8019,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 172.72) (xy 158.75 172.72)
+			(xy 158.75 172.72) (xy 152.4 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7992,7 +8051,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 172.72) (xy 158.75 172.72)
+			(xy 140.97 172.72) (xy 152.4 172.72)
 		)
 		(stroke
 			(width 0)
@@ -8094,7 +8153,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 180.34) (xy 158.75 180.34)
+			(xy 140.97 180.34) (xy 152.4 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8315,7 +8374,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 184.15) (xy 165.1 187.96)
+			(xy 158.75 184.15) (xy 158.75 187.96)
 		)
 		(stroke
 			(width 0)
@@ -8508,7 +8567,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 175.26) (xy 147.32 175.26)
+			(xy 152.4 175.26) (xy 140.97 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8708,7 +8767,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 187.96) (xy 158.75 189.23)
+			(xy 152.4 187.96) (xy 152.4 189.23)
 		)
 		(stroke
 			(width 0)
@@ -8969,7 +9028,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 185.42) (xy 158.75 187.96)
+			(xy 152.4 185.42) (xy 152.4 187.96)
 		)
 		(stroke
 			(width 0)
@@ -9310,7 +9369,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 180.34) (xy 158.75 182.88)
+			(xy 152.4 180.34) (xy 152.4 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9481,7 +9540,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 182.88) (xy 158.75 185.42)
+			(xy 152.4 182.88) (xy 152.4 185.42)
 		)
 		(stroke
 			(width 0)
@@ -9702,7 +9761,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 176.53) (xy 165.1 172.72)
+			(xy 158.75 176.53) (xy 158.75 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9762,7 +9821,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 185.42) (xy 158.75 185.42)
+			(xy 140.97 185.42) (xy 152.4 185.42)
 		)
 		(stroke
 			(width 0)
@@ -9783,7 +9842,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 182.88) (xy 158.75 182.88)
+			(xy 140.97 182.88) (xy 152.4 182.88)
 		)
 		(stroke
 			(width 0)
@@ -11156,7 +11215,7 @@
 		(uuid "b82dc689-c13a-4816-bd8c-9723a08427b2")
 	)
 	(label "SD_CD"
-		(at 158.75 175.26 180)
+		(at 152.4 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11459,7 +11518,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "027dd645-1953-49d3-be34-2c9f5c7f0d36")
 		(property "Reference" "J6"
 			(at 269.24 78.74 0)
@@ -11822,7 +11881,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0bb80852-97e7-4d81-a4e5-2033dfda9f0d")
 		(property "Reference" "FID4"
@@ -11925,6 +11984,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 53.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C27834"
 			(at 53.34 128.27 0)
 			(effects
 				(font
@@ -12144,6 +12212,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C165948"
+			(at 29.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "2c35d86a-f87e-4f29-9563-841001915177")
 		)
@@ -12338,6 +12415,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C177225"
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ebb5d50-c742-406c-a4c4-920c412bbaeb")
 		)
@@ -12400,6 +12486,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 175.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C28323"
 			(at 175.26 27.94 0)
 			(effects
 				(font
@@ -12546,6 +12641,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C7465444"
+			(at 233.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4cd1ae0-9d5c-45b0-bfda-3c5164acbc6e")
 		)
@@ -12580,7 +12684,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "20784eaa-baf4-4507-8703-3acf2a50eb62")
 		(property "Reference" "R11"
@@ -12662,7 +12766,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2132c24a-220b-41d2-9208-3c23cd154eba")
 		(property "Reference" "FID3"
@@ -12837,6 +12941,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C28323"
+			(at 246.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b720c30-88b7-4608-827d-93db3360f27a")
 		)
@@ -12896,6 +13009,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 237.49 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C28323"
 			(at 237.49 132.08 0)
 			(effects
 				(font
@@ -12967,6 +13089,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17414"
 			(at 96.52 177.8 0)
 			(effects
 				(font
@@ -13050,133 +13181,6 @@
 			(project "OSO-BOOK-B1"
 				(path "/0e7808ef-4104-4c3a-9f13-425856a8989a"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MEM2075-00-140-01-A:MEM2075-00-140-01-A")
-		(at 129.54 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "284c0d8e-5178-4492-bd13-09be4677cd69")
-		(property "Reference" "U3"
-			(at 129.54 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MEM2075"
-			(at 129.54 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MEM2075-00-140-01-A:GCT_MEM2075-00-140-01-A"
-			(at 129.54 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "GCT"
-			(at 129.54 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 129.54 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer recommendations"
-			(at 129.54 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "P1"
-			(uuid "c5edfa5a-0065-479b-a74d-fe4376c0a80c")
-		)
-		(pin "P2"
-			(uuid "f18322b0-7782-4529-948d-39f11b263b84")
-		)
-		(pin "P3"
-			(uuid "051f4686-a5d8-4346-b92c-fec2624f6364")
-		)
-		(pin "P4"
-			(uuid "c414fa08-91e2-4e4d-b966-82857d6062fe")
-		)
-		(pin "P5"
-			(uuid "f76c0bd2-b183-474f-a8e3-8b4fe68cd2cd")
-		)
-		(pin "P6"
-			(uuid "89bea3b5-5306-4dda-bbdf-4f2a13684356")
-		)
-		(pin "P7"
-			(uuid "82987c42-a43c-44fa-b230-ce00d8a34501")
-		)
-		(pin "P8"
-			(uuid "eadfb070-f7d2-481a-b9ba-0227d1f42597")
-		)
-		(pin "P9"
-			(uuid "5f87f814-2341-47c5-8a30-0d1238b513e8")
-		)
-		(pin "SH1"
-			(uuid "687b8207-4406-41dc-a607-390b9199b83c")
-		)
-		(pin "SH2"
-			(uuid "c5a1b3c2-83e4-411a-85b9-c70c3e6bde8c")
-		)
-		(pin "SH3"
-			(uuid "c5f0d43b-d84c-45e0-b58b-b1e235a74fc5")
-		)
-		(pin "SH4"
-			(uuid "e039e87f-e835-4813-9eaa-431fe88c302a")
-		)
-		(instances
-			(project "OSO-BOOK-B1"
-				(path "/0e7808ef-4104-4c3a-9f13-425856a8989a"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13447,6 +13451,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C15127"
+			(at 180.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d80a4652-e7ed-4566-92f6-76a18cabb7d6")
 		)
@@ -13467,7 +13480,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VP")
-		(at 158.75 165.1 0)
+		(at 152.4 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13476,7 +13489,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c92b943-78ff-4e77-9e6a-851f7761120f")
 		(property "Reference" "#PWR0129"
-			(at 162.56 166.37 0)
+			(at 156.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13485,7 +13498,7 @@
 			)
 		)
 		(property "Value" "+3.3VP"
-			(at 158.75 160.02 0)
+			(at 152.4 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13493,7 +13506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 165.1 0)
+			(at 152.4 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13502,7 +13515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 165.1 0)
+			(at 152.4 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13511,7 +13524,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 165.1 0)
+			(at 152.4 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13615,7 +13628,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Pack04_Split"
+		(property "Value" "10k"
 			(at 228.6 69.215 0)
 			(effects
 				(font
@@ -13644,6 +13657,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 226.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C29718"
 			(at 226.06 67.31 0)
 			(effects
 				(font
@@ -13739,6 +13761,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C13585"
+			(at 101.6 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f50c1c0-a0de-4d31-914d-86e16113fcd6")
 		)
@@ -13773,7 +13804,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "356e2a52-797e-4acf-8388-e2ccb48d0b2b")
 		(property "Reference" "H3"
 			(at 257.81 184.15 0)
@@ -14039,6 +14070,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C28323"
+			(at 246.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a6e8ee6-fc47-45fc-969d-5f65c0f41b29")
 		)
@@ -14098,6 +14138,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 261.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17513"
 			(at 261.62 49.53 0)
 			(effects
 				(font
@@ -14243,6 +14292,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C13585"
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb32c7ef-e3fb-4b59-9fbf-7cbd771f0d1a")
 		)
@@ -14265,7 +14323,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3e05d323-c443-4c20-a6cb-005e9514913f")
 		(property "Reference" "FID2"
@@ -14442,6 +14500,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C128539"
+			(at 74.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc631442-352c-4e0d-b1c7-60986fc60eda")
 		)
@@ -14464,7 +14531,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "407e6866-ce57-4a0b-a169-7eac092652fe")
 		(property "Reference" "JP1"
 			(at 262.89 36.83 0)
@@ -14527,7 +14594,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 189.23 0)
+		(at 152.4 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14536,7 +14603,7 @@
 		(fields_autoplaced yes)
 		(uuid "44d07e2b-ce32-4c8f-b5f3-430e233cc04e")
 		(property "Reference" "#PWR0116"
-			(at 158.75 195.58 0)
+			(at 152.4 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14545,7 +14612,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 194.31 0)
+			(at 152.4 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14553,7 +14620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 189.23 0)
+			(at 152.4 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14562,7 +14629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 189.23 0)
+			(at 152.4 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14571,7 +14638,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 189.23 0)
+			(at 152.4 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14610,7 +14677,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Pack04_Split"
+		(property "Value" "10k"
 			(at 72.39 145.415 0)
 			(effects
 				(font
@@ -14638,6 +14705,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C29718"
 			(at 68.58 143.51 0)
 			(effects
 				(font
@@ -14764,7 +14840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMG3415"
+		(property "Value" "Q_PMOS_GSD"
 			(at 83.82 121.9199 0)
 			(effects
 				(font
@@ -14782,7 +14858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810171817_Alpha---Omega-Semicon-AO3401A_C15127.pdf"
 			(at 77.47 120.65 0)
 			(effects
 				(font
@@ -14792,6 +14868,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C15127"
 			(at 77.47 120.65 0)
 			(effects
 				(font
@@ -14950,6 +15035,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C13585"
+			(at 101.6 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cd4ffbc-f1ae-495e-b01e-5fcf3ed6b0b6")
 		)
@@ -15023,6 +15117,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C13585"
 			(at 101.6 16.51 0)
 			(effects
 				(font
@@ -15179,6 +15282,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C28323"
+			(at 196.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00d4f5a0-47be-4e35-8dd2-ccfe183e9e2f")
 		)
@@ -15243,6 +15355,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C424093"
 			(at 132.08 130.81 0)
 			(effects
 				(font
@@ -15342,6 +15463,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C28323"
+			(at 220.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb07aff4-c4f6-4e3c-a83a-f93e65bdcbcc")
 		)
@@ -15364,7 +15494,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "58376077-2c5a-4191-9a5d-ada104debbb4")
 		(property "Reference" "H1"
 			(at 242.57 184.15 0)
@@ -15525,7 +15655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_MD-4040"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 179.07 95.25 0)
 			(effects
 				(font
@@ -15544,6 +15674,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1046"
 			(at 179.07 95.25 0)
 			(effects
 				(font
@@ -15799,7 +15938,7 @@
 				)
 			)
 		)
-		(property "Value" "MBR120"
+		(property "Value" "1N4148W"
 			(at 82.8675 132.08 0)
 			(effects
 				(font
@@ -15826,6 +15965,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 82.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C81598"
 			(at 82.55 135.89 0)
 			(effects
 				(font
@@ -15878,7 +16026,7 @@
 				)
 			)
 		)
-		(property "Value" "22µH"
+		(property "Value" "10uH"
 			(at 199.39 21.59 90)
 			(effects
 				(font
@@ -15886,7 +16034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 199.39 24.13 0)
 			(effects
 				(font
@@ -15905,6 +16053,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 199.39 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1046"
 			(at 199.39 24.13 0)
 			(effects
 				(font
@@ -16162,7 +16319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf"
 			(at 187.96 100.33 0)
 			(effects
 				(font
@@ -16172,6 +16329,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C8545"
 			(at 187.96 100.33 0)
 			(effects
 				(font
@@ -16242,6 +16408,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 261.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17513"
 			(at 261.62 26.67 0)
 			(effects
 				(font
@@ -16554,6 +16729,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C13585"
+			(at 99.06 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dda7ab26-3348-4794-9daa-a4a406f2ec11")
 		)
@@ -16730,7 +16914,7 @@
 				)
 			)
 		)
-		(property "Value" "R1218"
+		(property "Value" "R1218N041A-TR-FE"
 			(at 199.39 44.45 0)
 			(effects
 				(font
@@ -16757,6 +16941,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 199.39 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C6749144"
 			(at 199.39 33.02 0)
 			(effects
 				(font
@@ -16838,6 +17031,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1779"
 			(at 173.99 99.06 0)
 			(effects
 				(font
@@ -16948,7 +17150,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "90fd525f-8ebd-449b-ad9a-ee50819d7601")
 		(property "Reference" "J8"
 			(at 25.4 63.5 0)
@@ -17176,7 +17378,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "972f3ee5-872a-45b0-9dae-b0a1a61983b4")
 		(property "Reference" "H4"
 			(at 265.43 184.15 0)
@@ -17251,7 +17453,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Pack04_Split"
+		(property "Value" "10k"
 			(at 208.28 76.835 0)
 			(effects
 				(font
@@ -17280,6 +17482,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 204.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C29718"
 			(at 204.47 74.93 0)
 			(effects
 				(font
@@ -17493,7 +17704,7 @@
 				)
 			)
 		)
-		(property "Value" "MBR0530"
+		(property "Value" "1N4148W"
 			(at 223.52 137.16 0)
 			(effects
 				(font
@@ -17520,6 +17731,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 220.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C81598"
 			(at 220.98 137.16 0)
 			(effects
 				(font
@@ -17623,13 +17843,205 @@
 		)
 	)
 	(symbol
+		(lib_id "TF-CARD:ST-TF-003A")
+		(at 127 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0fffe6f-dc83-4ddd-859e-78833b7848e5")
+		(property "Reference" "P1"
+			(at 126.365 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST-TF-003A"
+			(at 126.365 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TF-CARD:SUNTECH_ST-TF-003A"
+			(at 144.272 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Suntech"
+			(at 131.064 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nMicro SD Card Socket\n"
+			(at 137.922 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 129.54 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 129.54 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 129.032 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 128.524 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST-TF-003A"
+			(at 133.35 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 133.096 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Suntech"
+			(at 131.318 148.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "f9c1ebd5-5c75-4600-9818-17949db237d2")
+		)
+		(pin "8"
+			(uuid "ceadfa7c-6564-4d2d-a7ae-9149b1075ff5")
+		)
+		(pin "5"
+			(uuid "6cc46c8f-7cb8-4ca1-b6b9-f227fbab6d70")
+		)
+		(pin "4"
+			(uuid "cc30aa75-fac4-4be6-a859-ab644c05a143")
+		)
+		(pin "3"
+			(uuid "377cca5b-2552-4b3b-93cb-78fe3b83ee72")
+		)
+		(pin "6"
+			(uuid "4e3903c8-401f-4bc9-86dc-1fc9b2636fb2")
+		)
+		(pin "1"
+			(uuid "e98b0512-b6e4-4641-aa82-8d5f2ce765f6")
+		)
+		(pin "G4"
+			(uuid "20502f41-df47-44e4-bc0d-16a609f5a9c1")
+		)
+		(pin "7"
+			(uuid "24c16cae-32f6-43f1-8ea3-f6a61ac16a7e")
+		)
+		(pin "2"
+			(uuid "12a824ce-1bde-4754-9d9e-e6b322fc5eb7")
+		)
+		(pin "G1"
+			(uuid "fa323161-f351-4942-9668-6e142c8f48ee")
+		)
+		(pin "G3"
+			(uuid "73c235a8-cdb5-41cc-8331-485d81003efb")
+		)
+		(pin "G2"
+			(uuid "69bb56e2-0708-4746-b59d-cad6666664bb")
+		)
+		(instances
+			(project ""
+				(path "/0e7808ef-4104-4c3a-9f13-425856a8989a"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 240.03 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a1235534-e50e-46ed-8d82-4e0b8ac3c43a")
 		(property "Reference" "FID1"
@@ -17733,6 +18145,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17513"
 			(at 116.84 143.51 0)
 			(effects
 				(font
@@ -17888,6 +18309,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C128539"
+			(at 26.67 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f700d8a-f7f4-4c8d-860b-afff51c00e4a")
 		)
@@ -17988,7 +18418,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "12pF"
 			(at 20.32 55.88 0)
 			(effects
 				(font
@@ -17997,7 +18427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 17.4752 58.42 0)
 			(effects
 				(font
@@ -18016,6 +18446,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 16.51 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C38523"
 			(at 16.51 54.61 0)
 			(effects
 				(font
@@ -18169,6 +18608,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C86534"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16d2d6cd-4d8d-453e-80c0-a0d642321e9e")
 		)
@@ -18257,6 +18705,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C28323"
+			(at 246.38 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca67808f-d141-424d-ba01-3127c287e4f2")
 		)
@@ -18279,7 +18736,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b4beeb49-6e5a-40fd-9299-b26a799ca52c")
 		(property "Reference" "J5"
 			(at 278.765 31.75 0)
@@ -18438,7 +18895,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47"
+		(property "Value" "2.2"
 			(at 193.04 110.4899 0)
 			(effects
 				(font
@@ -18466,6 +18923,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 190.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17521"
 			(at 190.5 109.22 0)
 			(effects
 				(font
@@ -18718,7 +19184,7 @@
 				)
 			)
 		)
-		(property "Value" "MBR0530"
+		(property "Value" "1N4148W"
 			(at 199.39 125.73 0)
 			(effects
 				(font
@@ -18745,6 +19211,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 196.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C81598"
 			(at 196.85 125.73 0)
 			(effects
 				(font
@@ -19158,6 +19633,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C28323"
+			(at 246.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "66abb7b0-d97a-4943-9abe-36bfef833a95")
 		)
@@ -19191,7 +19675,7 @@
 				)
 			)
 		)
-		(property "Value" "MBR0530"
+		(property "Value" "1N4148W"
 			(at 209.55 140.97 0)
 			(effects
 				(font
@@ -19218,6 +19702,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 207.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C81598"
 			(at 207.01 140.97 0)
 			(effects
 				(font
@@ -19352,7 +19845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404180925_Seiko-Epson-Q13FC13500004_C32346.pdf"
 			(at 24.13 45.72 0)
 			(effects
 				(font
@@ -19362,6 +19855,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 24.13 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C32346"
 			(at 24.13 45.72 0)
 			(effects
 				(font
@@ -19726,6 +20228,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C262683"
+			(at 278.13 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d366142-3bcc-4d57-bf92-11b3a2b00dd1")
 		)
@@ -19970,7 +20481,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d84453f2-2cc5-40b8-a956-d9d3d6477849")
 		(property "Reference" "JP2"
 			(at 262.89 59.69 0)
@@ -20083,6 +20594,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C17539"
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29d7d0b3-b715-4d66-b9f3-e2bf88ac78ad")
 		)
@@ -20105,7 +20625,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "debfb633-9dba-4f6d-98cf-78cd995c74d4")
 		(property "Reference" "J7"
@@ -20411,6 +20931,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 240.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C28323"
 			(at 240.03 106.68 0)
 			(effects
 				(font
@@ -20790,7 +21319,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 180.34 180)
+		(at 158.75 180.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20798,7 +21327,7 @@
 		(dnp no)
 		(uuid "ee7ec54b-711a-4b23-bab9-26cad74efdce")
 		(property "Reference" "C8"
-			(at 172.72 181.61 0)
+			(at 166.37 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20807,7 +21336,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 172.72 179.07 0)
+			(at 166.37 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20816,7 +21345,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 164.1348 176.53 0)
+			(at 157.7848 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20825,7 +21354,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 180.34 0)
+			(at 158.75 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20834,7 +21363,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 180.34 0)
+			(at 158.75 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C13585"
+			(at 158.75 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21018,7 +21556,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Pack04_Split"
+		(property "Value" "10k"
 			(at 208.28 69.215 0)
 			(effects
 				(font
@@ -21047,6 +21585,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 204.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C29718"
 			(at 204.47 67.31 0)
 			(effects
 				(font
@@ -21095,7 +21642,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f2efbd2b-ee5f-42ce-b8fe-5bc981493a27")
 		(property "Reference" "H2"
 			(at 250.19 184.15 0)
@@ -21237,7 +21784,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "12pF"
 			(at 35.56 55.88 0)
 			(effects
 				(font
@@ -21246,7 +21793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 32.7152 58.42 0)
 			(effects
 				(font
@@ -21265,6 +21812,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C38523"
 			(at 31.75 54.61 0)
 			(effects
 				(font
@@ -21334,6 +21890,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 60.96 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C27834"
 			(at 60.96 128.27 0)
 			(effects
 				(font
@@ -21633,6 +22198,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C1779"
+			(at 207.01 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de34937e-92e9-4f67-91c6-114d4c1873b5")
 		)
@@ -21695,6 +22269,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 222.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17415"
 			(at 222.25 40.64 0)
 			(effects
 				(font
