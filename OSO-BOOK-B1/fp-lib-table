@@ -4,4 +4,5 @@
   (lib (name "K1-5202UA")(type "KiCad")(uri "${KIPRJMOD}/K1-5202UA.pretty")(options "")(descr ""))
   (lib (name "TACT_PANA-EVQ")(type "KiCad")(uri "${KIPRJMOD}/TACT_PANA-EVQ.pretty")(options "")(descr ""))
   (lib (name "TF-CARD")(type "KiCad")(uri "${KIPRJMOD}/TF-Card.pretty")(options "")(descr ""))
+  (lib (name "Keypad")(type "KiCad")(uri "${KIPRJMOD}/Keypad.pretty")(options "")(descr ""))
 )

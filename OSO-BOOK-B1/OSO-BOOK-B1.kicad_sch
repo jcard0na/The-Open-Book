@@ -14255,7 +14255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "Keypad:SW_Push_1P1T_XKB_TS-1187A-Silicon-Hybrid"
 			(at 52.07 172.72 0)
 			(effects
 				(font
@@ -17114,7 +17114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "Keypad:SW_Push_1P1T_XKB_TS-1187A-Silicon-Hybrid"
 			(at 74.93 172.72 0)
 			(effects
 				(font
@@ -20277,7 +20277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "Keypad:SW_Push_1P1T_XKB_TS-1187A-Silicon-Hybrid"
 			(at 52.07 185.42 0)
 			(effects
 				(font
@@ -21078,7 +21078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "Keypad:SW_Push_1P1T_XKB_TS-1187A-Silicon-Hybrid"
 			(at 26.67 185.42 0)
 			(effects
 				(font
@@ -21239,7 +21239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "Keypad:SW_Push_1P1T_XKB_TS-1187A-Silicon-Hybrid"
 			(at 26.67 172.72 0)
 			(effects
 				(font
@@ -22213,7 +22213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "Keypad:SW_Push_1P1T_XKB_TS-1187A-Silicon-Hybrid"
 			(at 74.93 184.15 0)
 			(effects
 				(font
@@ -22681,7 +22681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "Keypad:SW_Push_1P1T_XKB_TS-1187A-Silicon-Hybrid"
 			(at 52.07 160.02 0)
 			(effects
 				(font
