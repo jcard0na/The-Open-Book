@@ -668,6 +668,12 @@
           "label": "Availability",
           "name": "Availability",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alternate",
+          "name": "Alternate",
+          "show": false
         }
       ],
       "filter_string": "",
